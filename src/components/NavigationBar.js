@@ -36,32 +36,6 @@ const Navigation = ({
         css.navbarWrapper ||
         'box is-mobile has-text-white has-background-black py-4'
       }`}>
-      {hideZoom ? (
-        <div className='column is-4'></div>
-      ) : (
-        <div className='column is-flex is-flex-direction-row is-4 buttons are-small has-addons'>
-          <ZoomOut
-            scale={scale}
-            minScale={minScale}
-            defaultScale={defaultScale}
-            css={css.zoomOutBtn}
-            handleZoomOut={handleZoomOut}
-          />
-          <ResetZoom
-            scale={scale}
-            defaultScale={defaultScale}
-            css={css.resetZoomBtn}
-            handleResetZoom={handleResetZoom}
-          />
-          <ZoomIn
-            scale={scale}
-            maxScale={maxScale}
-            defaultScale={defaultScale}
-            css={css.zoomInBtn}
-            handleZoomIn={handleZoomIn}
-          />
-        </div>
-      )}
       <div className='column is-flex is-flex-direction-row is-4 buttons are-small has-addons is-centered'>
         <PreviousPageButton
           css={css.previousPageBtn}
