@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/cherifsriret/pdf-viewer-reactjs.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "keywords": [
     "pdf",
     "document",
