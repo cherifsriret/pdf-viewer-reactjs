@@ -77,27 +77,6 @@ const Navigation = ({
           handleNextClick={handleNextClick}
         />
       </div>
-      {hideRotation ? (
-        <div className='column is-4'></div>
-      ) : (
-        <div className='column is-flex is-flex-direction-row is-4 buttons are-small has-addons is-right'>
-          <RotateLeft
-            css={css.rotateLeftBtn}
-            rotationAngle={rotationAngle}
-            handleRotateLeft={handleRotateLeft}
-          />
-          <ResetRotation
-            css={css.resetRotationBtn}
-            rotationAngle={rotationAngle}
-            handleResetRotation={handleResetRotation}
-          />
-          <RotateRight
-            css={css.rotateRightBtn}
-            rotationAngle={rotationAngle}
-            handleRotateRight={handleRotateRight}
-          />
-        </div>
-      )}
     </div>
   )
 }
