@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ansu5555/pdf-viewer-reactjs.git"
+    "url": "git+ssh://git@github.com/cherifsriret/pdf-viewer-reactjs.git"
   },
   "keywords": [
     "pdf",
@@ -33,12 +33,12 @@
     "react-pdf",
     "react-pdf-viewer"
   ],
-  "author": "ansu5555",
+  "author": "cherifsriret",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ansu5555/pdf-viewer-reactjs/issues"
+    "url": "https://github.com/cherifsriret/pdf-viewer-reactjs/issues"
   },
-  "homepage": "https://github.com/ansu5555/pdf-viewer-reactjs#readme",
+  "homepage": "https://github.com/cherifsriret/pdf-viewer-reactjs#readme",
   "peerDependencies": {
     "bulma": ">=0.8.1",
     "material-design-icons": ">=3.0.1",
