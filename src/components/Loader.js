@@ -11,7 +11,7 @@ const loader = {
 
 const Loader = () => (
   <div className='m-4 is-flex is-flex-direction-row is-justify-content-center is-align-content-center'>
-    <p className='is-size-3 is-marginless'>Loading</p>
+    <p className='is-size-3 is-marginless'>Loading...</p>
     <div className='p-3'>
       <div style={loader} />
     </div>
